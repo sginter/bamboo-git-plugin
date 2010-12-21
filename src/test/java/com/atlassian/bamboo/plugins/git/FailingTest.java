@@ -8,6 +8,6 @@ public class FailingTest
     @Test
     public void testFailing() throws Exception
     {
-        
+        Assert.fail("Always fail");
     }
 }
